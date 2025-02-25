@@ -1,5 +1,5 @@
 body {background-color: #27213C; margin: 0; color: #fff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
-header {background-color:(39, 33, 60, .70); display: flex; flex-direction: column-reverse; align-items: center}
+header {background-color:rgba(39, 33, 60, .70); display: flex; flex-direction: column-reverse; align-items: center}
 nav>a {color: #e2512d; text-decoration: none; padding: 1rem 2rem; font-weight: 900; display: inline-block}
 nav>a:hover {color: #A33B20; text-decoration: underline}
 header {position: fixed; top: 0; width: 100%; z-index: 1}
@@ -9,7 +9,7 @@ section {background-color: #A33B20}
 .animals {background-color: transparent}
 .sloth>h2 {background-image: url(images/sloth.jpg)}
 .elephant>h2 {background-image: url(images/elephant.jpg)}
-.owl {background-image: url(images/owl.jpg)}
+.owl>h2 {background-image: url(images/owl.jpg)}
 article {padding: 1rem}
 section>span {position: absolute; top: 15rem; font-size: 2rem; left:calc(50% - 11px)}
 section>h2 {position: relative}
@@ -17,4 +17,7 @@ section>h2 {position: relative}
 article {display: none}
 article.show {display: block}
 section>span {transform: rotate(180deg)}
-span.roatate {transform: rotate(0)}
+span.rotate {transform: rotate(0deg)}
+.sidelink {background-color: #27213C; color:#fff; padding: 1rem 2rem; text-decoration: none; position: fixed; transform:rotate(90deg); z-index: 1; top: 30rem; right: -5rem}
+section>h2 {border-bottom: 2rem solid #e2512d}
+@media (min-width:1000px){.animal-background{height: 100rem; top: -25%}section>h2{padding: 23rem 0; font-size: 3rem; background-position: center}section>span{font-size: 4rem; top: 26rem; left:calc(50% - 22px)}nav{position: absolute; top: 1rem; left: 1rem;} article{max-width: 60rem; margin: 0 auto;}}
