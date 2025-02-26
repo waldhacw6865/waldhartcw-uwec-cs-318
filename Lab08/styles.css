@@ -11,13 +11,13 @@ section {background-color: #A33B20}
 .elephant>h2 {background-image: url(images/elephant.jpg)}
 .owl>h2 {background-image: url(images/owl.jpg)}
 article {padding: 1rem}
-section>span {position: absolute; top: 15rem; font-size: 2rem; left:calc(50% - 11px)}
+section span {position: absolute; top: 15rem; font-size: 2rem; left:calc(50% - 11px)}
 section>h2 {position: relative}
 .accordion {cursor: pointer}
 article {display: none}
 article.show {display: block}
-section>span {transform: rotate(180deg)}
+section span {transform: rotate(180deg)}
 span.rotate {transform: rotate(0deg)}
 .sidelink {background-color: #27213C; color:#fff; padding: 1rem 2rem; text-decoration: none; position: fixed; transform:rotate(90deg); z-index: 1; top: 30rem; right: -5rem}
 section>h2 {border-bottom: 2rem solid #e2512d}
-@media (min-width:1000px){.animal-background{height: 100rem; top: -25%}section>h2{padding: 23rem 0; font-size: 3rem; background-position: center}section>span{font-size: 4rem; top: 26rem; left:calc(50% - 22px)}nav{position: absolute; top: 1rem; left: 1rem;} article{max-width: 60rem; margin: 0 auto;}}
+@media (min-width:1000px){.animal-background{height: 100rem; top: -25%}section>h2{padding: 23rem 0; font-size: 3rem; background-position: center}section span{font-size: 4rem; top: 26rem; left:calc(50% - 22px)}nav{position: absolute; top: 1rem; left: 1rem;} article{max-width: 60rem; margin: 0 auto;}}
