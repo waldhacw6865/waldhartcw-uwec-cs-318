@@ -1,5 +1,12 @@
-header {background-color: #294CEA; font-family: Georgia, 'Times New Roman', Times, serif; length:50%}
+header {background-color: #294CEA; font-family: Georgia, 'Times New Roman', Times, serif; padding:2rem; text-align:center; top:0px; color: #fff}
 body {background-color: #4D5A96; text-align:center}
-img {max-width: 50%; max-height: 50%;}
+header a {color: #fff}
+a:hover {color:greenyellow}
+a {color: #fff;}
+footer {color: #fff}
+header > img {max-width: 15%; max-height: 15%}
+p {font-family: Georgia, 'Times New Roman', Times, serif; color: #fff; padding: 1rem; background-color: #294CEA;}
+img {max-width: 25%; max-height: 25%;}
 footer {background-color: #294CEA;}
-h3 {font-family: Georgia, 'Times New Roman', Times, serif;}
+h3 {font-family: Georgia, 'Times New Roman', Times, serif}
+h2 {font-family: Georgia, 'Times New Roman', Times, serif; color: #fff}
