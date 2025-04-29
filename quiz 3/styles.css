@@ -1,0 +1,23 @@
+.square{
+    background-color: white;
+    height:5rem;
+    width:5rem;
+    position: absolute;
+    left:48%;
+    top:48%;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(-45deg)
+    }
+    100% {
+      transform: rotate(45deg)
+    }
+  }
+
+body{
+    margin: 0;
+    background-color: coral;
+    overflow: hidden;
+}
