@@ -7,17 +7,15 @@
     top:48%;
 }
 
-@keyframes rotate {
-    0% {
-      transform: rotate(-45deg)
-    }
-    100% {
-      transform: rotate(45deg)
-    }
-  }
-
 body{
     margin: 0;
     background-color: coral;
     overflow: hidden;
+}
+
+div
+{
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-delay: 2s;
 }
